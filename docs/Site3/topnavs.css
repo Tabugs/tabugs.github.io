@@ -1,0 +1,109 @@
+.topnav{
+    background-color: rgb(34, 34, 34);
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+.centernav{
+    background-color: rgb(75, 75, 75);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+.centernav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.centernav a.active {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+.centernav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.solmetin{
+    margin-left: 10px;
+    margin-right: 25%;
+}
+.sagmetin{
+    margin-left: 80%;
+    margin-right: 10px;
+}
+.sanatci{
+    float: right;
+    border-left: 2px solid black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .tema {
+    border: 0px;
+    float: right;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 48px;
+    height: 48px;
+}
+body{
+    background-color: rgb(69, 69, 69);
+}
+img {
+    border: 2px solid black;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 250px;
+    height: 300px;
+}
+h1{
+    border-bottom: 1px solid white; 
+    color: white;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 10px; 
+    padding-bottom: 10px;
+}
+h2{
+    color: white;
+    margin-right: 20%; 
+    margin-left: 10px;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
